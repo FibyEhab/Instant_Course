@@ -7,6 +7,7 @@
 5. **Comparison between `for` and `while` in python.**
 6. **Equivalent of `pass` in Java and C++**
 7. **How to Write Directly in the Middle of a File?**
+8. **Popular Tracing Tools in Python**
 ---
 ## Answers:
 
@@ -287,3 +288,13 @@ with open('file.txt', 'r+') as file:
     # Write text in the middle of the file
     file.write('\nThis is new text \n')
 ```
+
+### 8. Popular Tracing Tools in Python ###
+
+- `trace` Module: Code execution tracing and coverage.
+- `logging` Module: Flexible logging and tracing through log messages.
+- `pdb` Module: Interactive debugging with breakpoints and inspection.
+- `cProfile` Module: Profiling for function call statistics and performance.
+- `line_profiler`: Line-by-line performance profiling.
+- `py-spy`: Sampling profiler for live Python processes.
+- `tracemalloc` Module: Memory allocation and leak tracking.
