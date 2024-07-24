@@ -135,7 +135,14 @@ while True:
   if not condition:
     break
 ```
-### 5.Equivalent of `pass` in Java and C++.
+
+### 5. Comparison between `for` and `while` in python. ###
+#### For ####
+- Explanation:
+  
+        - fff
+
+### 6.Equivalent of `pass` in Java and C++.
 - Python: `pass`
 - c++: `{}` (empty block) or `;`
 - Java: `{}` (empty block) or `;`
@@ -164,5 +171,12 @@ while True:
 }
 ```
 
-  
+### 7.How to Write Directly in the Middle of a File? ###
 
+```
+with open('file.txt', 'r+') as file:
+    # Seek to the middle of the file
+    file.seek(len(file.read()) // 2)
+    # Write text in the middle of the file
+    file.write('\nThis is new text \n')
+```
