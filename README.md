@@ -8,6 +8,7 @@
 6. **Equivalent of `pass` in Java and C++**
 7. **How to Write Directly in the Middle of a File?**
 8. **Popular Tracing Tools in Python**
+9. **Role of Underscore `_` in Python**
 ---
 ## Answers:
 
@@ -298,3 +299,10 @@ with open('file.txt', 'r+') as file:
 - `line_profiler`: Line-by-line performance profiling.
 - `py-spy`: Sampling profiler for live Python processes.
 - `tracemalloc` Module: Memory allocation and leak tracking.
+
+### Role of Underscore `_` in Python ###
+- Single Underscore (_): Temporary variable, interactive shell result, unpacking.
+- Double Leading Underscores (__var): Name mangling for private attributes.
+- Double Leading and Trailing Underscores (__var__): Special or "magic" methods.
+- Single Trailing Underscore (var_): Avoiding conflicts with keywords or built-in names.
+- Underscore in Numeric Literals: Improving readability of large numbers.
