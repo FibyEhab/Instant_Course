@@ -151,7 +151,7 @@
 - Use descriptive and unambiguous names.
 - Names should reveal the intent of the variable, function, or class.
 
-**2. Single Responsibility Principle (SRP):**
+**2.Single Responsibility Principle (SRP):**
 - Each class or function should have one purpose or responsibility.
 - This makes the code easier to understand and modify.
 
