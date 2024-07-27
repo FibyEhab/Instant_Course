@@ -67,7 +67,7 @@
 - **Efficient Disk Usage:** B-trees are designed to minimize disk I/O operations, making them suitable for databases and file systems.
 - **Dynamic Nature:** B-trees handle dynamic data sets well, allowing for frequent insertions and deletions without significant performance degradation.
 
-### 2. Uses of `Red-Black Tree` ###
+### 3. Uses of `Red-Black Tree` ###
 
 - Data Storage in Standard Libraries:
   - C++ Standard Template Library (STL): Containers like map, multimap, set, and multiset are often implemented using Red-Black Trees to provide ordered data storage with efficient insertion, deletion, and search operations.
